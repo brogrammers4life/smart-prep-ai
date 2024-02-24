@@ -1,0 +1,8 @@
+venv/
+
+.env
+utils/*
+
+app/__pycache__
+
+test.py

@@ -1,0 +1,34 @@
+[
+  {
+    "pdf_url": "https://firebasestorage.googleapis.com/v0/b/smartprep-e0c23.appspot.com/o/textbooks%2FGeography_ssc_10_textbook.pdf?alt=media&token=113effc7-326c-4ff4-b8e5-32f4530a8c91",
+    "start": "10",
+    "end": "20"
+  },
+  {
+    "qa_data": [
+      {
+        "answer": "The two countries being studied this year are not specified in the given text.",
+        "question": "What are the two countries being studied this year?"
+      },
+      {
+        "answer": "The skills needed to study geography include observation, classification, differentiation, comparison, graph, diagram and map reading, evaluation, analysis, drawing conclusions, presentation, and critical thinking.",
+        "question": "What are the skills needed to study geography?"
+      },
+      {
+        "answer": "Studying geography helps us understand the application of geographical knowledge, provides insight into geography and its application, helps us understand natural and man-made events, allows us to apply geographical concepts to understand the characteristics of a region, helps us understand how people in a region have adapted to it, allows us to understand problems arising due to over-exploitation of resources, helps us understand environmental degradation and measures to be taken against it, helps us predict future trends, helps us face natural and man-made disasters in a better way, and helps us understand regional imbalances and their causes and suggest possible remedies.",
+        "question": "What are the benefits of studying geography?"
+      },
+      {
+        "answer": "The clues given to identify the two countries being studied include: one is the second largest populated country in the world, famous for spices in the world, and cricket is a popular sport there; the other is famous for Samba dance, known as the ‘coffee pot’ of the world, and football is a very popular sport there.",
+        "question": "What are the clues given to identify the two countries being studied?"
+      },
+      {
+        "answer": "The name of the country famous for Samba dance is not specified in the given text.",
+        "question": "What is the name of the country famous for Samba dance?"
+      }
+    ]
+  },
+  {
+    "image_url": "https://firebasestorage.googleapis.com/v0/b/smartprep-e0c23.appspot.com/o/handwritten_note.jpg?alt=media&token=8ab0d107-b686-472e-8024-eaf623ce31c7"
+  }
+]
