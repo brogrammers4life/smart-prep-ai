@@ -1,0 +1,29 @@
+{
+  "project_info": {
+    "project_number": "587743956130",
+    "project_id": "oralprep-e19b1",
+    "storage_bucket": "oralprep-e19b1.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:587743956130:android:c97b7dd5aed2a619615bfb",
+        "android_client_info": {
+          "package_name": "com.example.oralprep"
+        }
+      },
+      "oauth_client": [],
+      "api_key": [
+        {
+          "current_key": "AIzaSyD0MA8dL5rgp2LNQB900onWSUhRyeeiSJA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": []
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
