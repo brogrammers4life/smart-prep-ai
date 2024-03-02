@@ -51,21 +51,7 @@ Our impact on democratizing education is evidenced by increased student engageme
 
 
 
-**Tech Stack 🛠️**
 
-**Frontend (Flutter):**
- ![Flutter SDK](https://img.icons8.com/color/64/000000/flutter.png)![Material Design](https://img.icons8.com/material/64/000000/material-design.png)
-
-**Backend:**
-![Firebase](https://img.icons8.com/color/64/000000/firebase.png)![Flask](https://img.icons8.com/ios/64/000000/flask.png)
-
-Certainly! Here's the corrected syntax for your AI/ML icons:
-
-**AI/ML:**
-![Dialogflow](https://img.icons8.com/color/64/000000/dialogflow.png) ![Gemini](https://img.icons8.com/color/64/000000/gemini.png) ![TensorFlow](https://img.icons8.com/color/64/000000/tensorflow.png) [![ML Kit](https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT19t4EM6B-yB4drpTyWFhwMWyA_l0aOweVblNvMDV5W9ZqB0fuFW2doRSQFKiVKOH2CRg)](https://seeklogo.com/images/G/google-ml-kit-logo-DB1B093FBD-seeklogo.com.png) ![Bayesian Knowledge Tracing](https://img.icons8.com/color/64/000000/bayesian.png)
-
-I've fixed the syntax, and now the icons should display properly.
-*Integrate Knowledge, Empower Minds! 🚀📚*
 
 
 
