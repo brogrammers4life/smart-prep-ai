@@ -1,18 +1,12 @@
 from flask import Flask, request, jsonify
 import json
-import os
 from flask_cors import CORS
 from functions import *
-import requests
 import json
-from PIL import Image
-from io import BytesIO
 import pytesseract
-import numpy as np
-import pandas as pd
-from pyBKT.models import Model
-import pickle
-import requests
+
+# from pyBKT.models import Model
+
 
 app = Flask(__name__)
 

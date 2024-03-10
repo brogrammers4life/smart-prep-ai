@@ -4,16 +4,7 @@ import PyPDF2
 import io
 import re
 import json
-from PIL import Image
-from io import BytesIO
-import pytesseract
-import openai
-import numpy as np
-import pandas as pd
-from pyBKT.models import Model
-import pickle
 import google.generativeai as genai
-from dotenv import load_dotenv
 import os
 from pathlib import Path
 from sentence_transformers import SentenceTransformer
@@ -25,7 +16,7 @@ from pathlib import Path
 
 # Load environment variables from .env
 GENAI_KEY = os.getenv("GENAI_SECRET_KEY")
-genai.configure(api_key=GENAI_KEY)
+genai.configure(api_key="AIzaSyBpgcMCZS6Ro32ObfB4E9wUCEikOX75VtE")
 
 
 def handwritten_to_text(image_url):

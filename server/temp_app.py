@@ -1,6 +1,6 @@
 from flask import Flask, request, jsonify
 import pickle
-from pyBKT.models import Model
+# from pyBKT.models import Model
 
 # Load the pickled model
 with open("model.pkl", "rb") as model_file:
