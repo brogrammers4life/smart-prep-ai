@@ -9,7 +9,7 @@ through their academic journey and saving valuable time for both students and te
 
 **Project Setup 🚀**
 
-_Challenge:_ We aim to tackle UN Sustainable Development Goal 4: Quality Education, focusing on ensuring equitable
+_Challenge:_ We aim to tackle United Nations Sustainable Development Goal 4: Quality Education, focusing on ensuring equitable
 access to education for all despite socio-economic backgrounds.
 
 _Solution:_ SmartPrep.ai leverages adaptive learning, assessing knowledge through AI and ML components, including
