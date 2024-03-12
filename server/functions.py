@@ -12,11 +12,11 @@ from scipy import spatial
 import Levenshtein
 import json
 from pathlib import Path
-
+from os import environ
 
 # Load environment variables from .env
-GENAI_KEY = os.getenv("GENAI_SECRET_KEY")
-genai.configure(api_key="AIzaSyBpgcMCZS6Ro32ObfB4E9wUCEikOX75VtE")
+FLASK_GENAI_API_KEY = environ.get('FLASK_GENAI_API_KEY')
+genai.configure(api_key=FLASK_GENAI_API_KEY)
 
 
 def handwritten_to_text(image_url):
@@ -101,6 +101,8 @@ def extract_text_from_pdf_url(pdf_url, start, end):
 
 def generate_question_answers(text):
     # Set up the model
+    print("generating questions and answers")
+    # print("open ai key", FLASK_GENAI_API_KEY)
     generation_config = {
         "temperature": 0.4,
         "top_p": 1,
@@ -138,9 +140,9 @@ def generate_question_answers(text):
     ]
 
     response = model.generate_content(prompt_parts)
+    print("response", response)
 
     return response.text
-
 
 
 def calculate_semantic_score(og_ans, user_ans):
@@ -153,6 +155,8 @@ def calculate_semantic_score(og_ans, user_ans):
     emb2 = embeddings[1]
 
     score = 1 - spatial.distance.cosine(emb1, emb2)
+    if score < 0:
+        score = 0.01
 
     return score
 
@@ -202,3 +206,45 @@ def get_static_qa():
     with open(Path("./utils/pdf_question_answers.json")) as file:
         data = json.load(file)
     return json.dumps(data)
+
+def help_learn(answer):
+    # Set up the model
+    generation_config = {
+        "temperature": 0.4,
+        "top_p": 1,
+        "top_k": 32,
+        "max_output_tokens": 4096,
+    }
+
+    safety_settings = [
+        {
+            "category": "HARM_CATEGORY_HARASSMENT",
+            "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+        },
+        {
+            "category": "HARM_CATEGORY_HATE_SPEECH",
+            "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+        },
+        {
+            "category": "HARM_CATEGORY_SEXUALLY_EXPLICIT",
+            "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+        },
+        {
+            "category": "HARM_CATEGORY_DANGEROUS_CONTENT",
+            "threshold": "BLOCK_MEDIUM_AND_ABOVE"
+        },
+    ]
+
+    model = genai.GenerativeModel(model_name="gemini-pro",
+                                  generation_config=generation_config,
+                                  safety_settings=safety_settings)
+
+    prompt_parts = [
+        answer,
+        "$answer   -> convert this answer to short questions and answer to help me learn in flashcard way and response should be in json format -> [{'text' : 'question', 'type' : 'Question'}, {'text' : 'answer', 'type' : 'Answer'},{'text' : 'question', 'type' : 'Question'}, {'text' : 'answer', 'type' : 'Answer'}] here one object is breakdown question and next Is the answer to that and make sure to only give me the json response- > only json response should be given and no other strings at start or end of the response. ",
+
+    ]
+
+    response = model.generate_content(prompt_parts)
+
+    return response.text
