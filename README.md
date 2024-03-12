@@ -138,4 +138,4 @@ Now, your Flutter project should be set up with Firebase and Dialogflow.
 
 4. Install the dependencies: `pip install -r requirements.txt`
 
-5. Start the backend server: `python run.py` or `python test.py` to run the tests
+5. Start the backend server: `python app.py`

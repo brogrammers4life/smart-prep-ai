@@ -3,7 +3,6 @@ import json
 from flask_cors import CORS
 from functions import *
 import json
-import pytesseract
 from dotenv import load_dotenv
 
 # from pyBKT.models import Model
@@ -15,7 +14,7 @@ load_dotenv()
 app.config.from_pyfile('settings.py')
 
 CORS(app)
-pytesseract.pytesseract.tesseract_cmd = r"C:/Program Files/Tesseract-OCR/tesseract.exe"
+
 
 # route for home, return hellow world
 
