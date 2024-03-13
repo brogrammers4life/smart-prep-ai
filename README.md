@@ -121,6 +121,8 @@ Now, your Flutter project should be set up with Firebase and Dialogflow.
 
 ## Installation (Server):
 
+The server is hosted and ready to use at https://smart-prep-ai.onrender.com/
+
 ### Checkout to web branch
 
 ```bash
@@ -138,4 +140,4 @@ Now, your Flutter project should be set up with Firebase and Dialogflow.
 
 4. Install the dependencies: `pip install -r requirements.txt`
 
-5. Start the backend server: `python run.py` or `python test.py` to run the tests
+5. Start the backend server: `python app.py`
