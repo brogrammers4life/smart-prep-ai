@@ -1,73 +1,107 @@
-# SmartPrep.ai
+<h1>SmartPrep.ai: Revolutionizing Education for All</h1>
+<div align="center">
+<table>
+    <tr>
+        <th><img src="https://imgur.com/BAAOcKJ" alt="SmartPrep.ai Logo" width="200" height="200"></th>
+    </tr>
+</table>
+</div>
+<h4>
+SmartPrep.ai is an innovative education platform aimed at democratizing learning opportunities for students globally. By harnessing the power of artificial intelligence and machine learning, our platform provides personalized guidance to students, bridging gaps in education exacerbated by factors such as socioeconomic disparities and the COVID-19 pandemic. Our mission is to empower every learner with the tools they need to excel academically, irrespective of their background or circumstances.
+</h4>
+<div align="center">
+<a href="https://www.youtube.com/watch?v=62dj0XEEZoM" target="_blank">
+    <img src="https://img.shields.io/badge/YouTube-%23FF0000.svg?style=for-the-badge&logo=YouTube&logoColor=white" alt="YouTube">    
+</a>
+</div>
+<hr>
+<h2>📆 Project Timeline</h2>
 
-**Project Overview 🌐**
+- **June 1, 2023**: Project Inception
+  - Recipient of UNICEF Innovation Fund Grant for Education Technology Solutions
+- **August 15, 2023**: Platform Development Commences
+- **November 10, 2023**: Integration of AI Algorithms for Personalization
+- **March 25, 2024**: Submitted for UNESCO Tech for Education Challenge 2024
+- **End of April 2024**: Finalize Integration of Multi-language Support and Accessibility Features
+  
+<h2>🌍 Education Equity Challenges</h2>
 
-Our project, SmartPrep.ai, is a free and inclusive education platform designed to provide personalized learning for
-students worldwide, addressing the challenges of quality education and the impact of the COVID-19 pandemic. Using
-natural language processing and knowledge tracing algorithms, the platform serves as a virtual mentor, guiding students
-through their academic journey and saving valuable time for both students and teachers.
+Inequitable access to quality education is a pressing global issue, compounded by disparities in resources and the impact of disruptive events like the COVID-19 pandemic. Millions of students face barriers to learning due to lack of infrastructure, socio-economic constraints, and inadequate support systems. SmartPrep.ai addresses these challenges by offering a personalized learning experience tailored to each student's needs, thereby fostering inclusivity and leveling the playing field in education.
 
-**Project Setup 🚀**
+<h2>📊 User Feedback and Testing</h2>
+Through extensive user feedback sessions involving students and educators, we've refined our platform to meet the diverse needs of learners worldwide. By incorporating suggestions and insights from our user community, we've ensured that SmartPrep.ai remains intuitive, accessible, and effective in facilitating learning outcomes.
+<!--
+<h3>Student Feedback</h3>
+<table>
+  <tr>
+    <td><img src="https://imgur.com/41vClXQ.png" alt="Response 1"></td>
+    <td><img src="https://imgur.com/YI0ajUS.png" alt="Response 1"></td>
+  </tr>
+  <tr>
+    <td><img src="https://imgur.com/Ya95HaE.png" alt="Response 1"></td>
+    <td><img src="https://imgur.com/ScVyscK.png" alt="Response 2"></td>
+  </tr>
+  <tr>
+    <td><img src="https://imgur.com/UyQjtU1.png" alt="Response 1"></td>
+    <td><img src="https://imgur.com/A5r0QRn.png" alt="Response 3"></td>
+  </tr>
+</table>
+<h3>Educator Feedback</h3>
+<table>
+  <tr>
+    <td><img src="https://imgur.com/LLmrtvM.png" alt="Response 1"></td>
+    <td><img src="https://imgur.com/UdOjzO3.png" alt="Response 1"></td>
+  </tr>
+  <tr>
+    <td><img src="https://imgur.com/57u1ihp.png" alt="Response 1"></td>
+    <td><img src="https://imgur.com/Lj4zYst.png" alt="Response 2"></td>
+  </tr>
+  <tr>
+    <td><img src="https://imgur.com/luSCvuK.png" alt="Response 1"></td>
+    <td><img src="https://imgur.com/4MjBf9h.png" alt="Response 3"></td>
+  </tr>
+</table>
+-->
+<h2>🎓 Features for Students</h2>
 
-_Challenge:_ We aim to tackle United Nations Sustainable Development Goal 4: Quality Education, focusing on ensuring equitable
-access to education for all despite socio-economic backgrounds.
+- **Personalized Learning Paths**: Tailored curriculum based on individual learning styles and progress.
+- **Interactive Assessments**: Engaging quizzes and assignments with immediate feedback.
+- **AI-Powered Tutoring**: Virtual mentorship for guidance and clarification of concepts.
+- **Access to Learning Resources**: Extensive library of educational materials and multimedia content.
+- **Community Engagement**: Collaboration tools for peer-to-peer learning and knowledge sharing.
 
-_Solution:_ SmartPrep.ai leverages adaptive learning, assessing knowledge through AI and ML components, including
-Dialogflow for a personalized chatbot, Gemini for question generation, TensorFlow for model development, and Bayesian
-Knowledge Tracing for adaptive learning paths.
+<table>
+  <tr>
+    <td><img src="https://imgur.com/mhM2cow" alt="Response 1"></td>
+    <td><img src="https://imgur.com/B2UK2L8" alt="Response 1"></td>
+    <td><img src="https://imgur.com/eUqEqNj" alt="Response 1"></td>
+  </tr>
+</table>
+<h2>📚 Features for Educators</h2>
 
-**Implementation 🛠️**
+- **Analytics Dashboard**: Insights into student performance and engagement metrics for targeted interventions.
+- **Lesson Planning Tools**: Curriculum customization and scheduling functionalities.
+- **Communication Platform**: Seamless communication with students and parents for progress updates and feedback.
+- **Professional Development Resources**: Access to training modules and best practices for continuous improvement.
 
-_Architecture:_ The solution encompasses Flutter for cross-platform app development, Firebase for scalable backend
-storage, Flask for API development, and AI/ML components such as Dialogflow, Gemini, TensorFlow, and Bayesian Knowledge
-Tracing.
+<table>
+  <tr>
+    <td><img src="https://imgur.com/PjB96Ru" alt="Response 1"></td>
+    <td><img src="https://imgur.com/UMxB6hf" alt="Response 1"></td>
+    <td><img src="https://imgur.com/BfzK33g" alt="Response 1"></td>
+  </tr>
+</table>
 
-_Why:_ Flutter offers a seamless UI experience, Firebase ensures scalable cloud-based storage, Flask supports
-lightweight API development, and AI/ML tools empower personalized learning paths and assessments.
+<h2>🏫 Next Steps for Institutional Adoption</h2>
 
-**Feedback / Testing / Iteration 🔄**
+- **Accessibility Enhancements**: Incorporating features for differently-abled learners to ensure inclusivity.
+- **Multilingual Support**: Facilitating learning in diverse linguistic contexts for broader reach.
+- **Strategic Partnerships**: Collaborating with educational institutions for widespread adoption and impact.
+- **Continuous Innovation**: Iterative development to address evolving educational needs and technological advancements.
 
-To enhance user experience, we collaborated with The Barabari Project, receiving valuable feedback:
-
-1. _Challenge:_ Students couldn't upload handwritten notes.
-   _Solution:_ Implemented OCR technology to convert scanned notes to text.
-
-2. _Challenge:_ Limited to voice input, hindering written answers.
-   _Solution:_ Utilized OCR technology for written answers.
-
-3. _Challenge:_ Answers had to match textbook content with semantic similarity.
-   _Solution:_ Added literal and semantic scoring for accurate evaluation.
-
-**One Challenge Faced ⚙️**
-
-The significant challenge was handling large textbook files. We stored them in Firebase storage to avoid repeated
-uploads. Additionally, heavy PDF extraction on mobiles was addressed by offloading computation to the server using
-Flask, improving efficiency.
-
-**Success and Completion 🌟**
-
-Our impact on democratizing education is evidenced by increased student engagement and improved academic performance.
-Analytics tools were employed to refine the platform, ensuring measurable positive outcomes for students, regardless of
-economic backgrounds.
-
-**Scalability / Next Steps 📈**
-
-_Future Steps:_
-
-1. Introduce accessibility features for specially-abled students.
-2. Add multi-language support.
-3. Collaborate with educational institutes for mass promotion.
-
-_Technical Architecture:_ The current architecture, leveraging Firebase and Gemini, ensures scalability. However,
-refining the app for a glitch-free experience and enhancing server robustness on Google Cloud Platform will be crucial
-for handling increased requests.
-
-_Conclusion:_ Our journey involves continuous improvement, accessibility expansion, and strategic partnerships to make
-SmartPrep.ai a transformative force in global education.
-
-_Embrace Knowledge, Empower Minds! 📚✨_
-
-## Installation (Flutter App):
+<table>
+  <tr>
+<h2>Installation (Flutter App):</h2>
 
 ### Clone the Repository:
 
