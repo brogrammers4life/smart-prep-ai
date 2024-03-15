@@ -92,6 +92,13 @@ Through extensive user feedback sessions involving students and educators, we've
   </tr>
 </table>
 
+<table>
+  <tr>
+    <td><img src="https://imgur.com/1e9FBLc" alt="Response 1"></td>
+    <td><img src="https://imgur.com/o4dyqfh" alt="Response 1"></td>
+  </tr>
+</table>
+
 <h2>🏫 Next Steps for Institutional Adoption</h2>
 
 - **Accessibility Enhancements**: Incorporating features for differently-abled learners to ensure inclusivity.
