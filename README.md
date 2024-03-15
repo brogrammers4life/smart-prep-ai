@@ -2,7 +2,7 @@
 <div align="center">
 <table>
     <tr>
-        <th><img src="https://imgur.com/BAAOcKJ" alt="SmartPrep.ai Logo" width="200" height="200"></th>
+        <th><img src="https://postimg.cc/WFQkDfsN" alt="SmartPrep.ai Logo" width="200" height="200"></th>
     </tr>
 </table>
 </div>
