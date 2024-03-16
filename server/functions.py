@@ -93,7 +93,7 @@ def extract_text_from_pdf_url(pdf_url, start, end):
             page_text = page.extract_text()
             qa_text += page_text + "\n"
 
-        os.remove(pdf_file.name)
+        # os.remove(pdf_file.name)
         return qa_text
     else:
         # Handle the case when the request fails
