@@ -2,7 +2,7 @@
 <div align="center">
 <table>
     <tr>
-        <th><img src="https://postimg.cc/WFQkDfsN" alt="SmartPrep.ai Logo" width="200" height="200"></th>
+        <th><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/name.jpg" alt="SmartPrep.ai Logo" width="300" height="100"></th>
     </tr>
 </table>
 </div>
@@ -72,9 +72,9 @@ Through extensive user feedback sessions involving students and educators, we've
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/mhM2cow" alt="Response 1"></td>
-    <td><img src="https://imgur.com/B2UK2L8" alt="Response 1"></td>
-    <td><img src="https://imgur.com/eUqEqNj" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/scrolling%20home.gif" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/pdf%20upload.gif" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/answering%20and%20score.gif" alt="Response 1"></td>
   </tr>
 </table>
 <h2>📚 Features for Educators</h2>
@@ -86,9 +86,10 @@ Through extensive user feedback sessions involving students and educators, we've
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/PjB96Ru" alt="Response 1"></td>
-    <td><img src="https://imgur.com/UMxB6hf" alt="Response 1"></td>
-    <td><img src="https://imgur.com/BfzK33g" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/scan%20and%20answer.gif" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/flashcards.gif" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/score%20analysis.gif" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/chatbot.gif" alt="Response 1"></td>
   </tr>
 </table>
 
