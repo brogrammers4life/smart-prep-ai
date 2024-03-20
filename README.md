@@ -1,4 +1,5 @@
 <h1>SmartPrep.ai: Revolutionizing Education for All</h1>
+![](https://komarev.com/ghpvc/?username=brogrammers4life&color=blue&style=for-the-badge&label=VIEWS)
 <div align="center">
 <table>
     <tr>
