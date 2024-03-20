@@ -2,7 +2,7 @@
 <div align="center">
 <table>
     <tr>
-        <th><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/name.jpg" alt="SmartPrep.ai Logo" width="300" height="100"></th>
+        <th><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/name.jpg" alt="SmartPrep.ai Logo" width="350" height="100"></th>
     </tr>
 </table>
 </div>
@@ -30,38 +30,20 @@ Inequitable access to quality education is a pressing global issue, compounded b
 
 <h2>📊 User Feedback and Testing</h2>
 Through extensive user feedback sessions involving students and educators, we've refined our platform to meet the diverse needs of learners worldwide. By incorporating suggestions and insights from our user community, we've ensured that SmartPrep.ai remains intuitive, accessible, and effective in facilitating learning outcomes.
-<!--
+
 <h3>Student Feedback</h3>
 <table>
   <tr>
-    <td><img src="https://imgur.com/41vClXQ.png" alt="Response 1"></td>
-    <td><img src="https://imgur.com/YI0ajUS.png" alt="Response 1"></td>
-  </tr>
-  <tr>
-    <td><img src="https://imgur.com/Ya95HaE.png" alt="Response 1"></td>
-    <td><img src="https://imgur.com/ScVyscK.png" alt="Response 2"></td>
-  </tr>
-  <tr>
-    <td><img src="https://imgur.com/UyQjtU1.png" alt="Response 1"></td>
-    <td><img src="https://imgur.com/A5r0QRn.png" alt="Response 3"></td>
+      <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/Screenshot%202024-03-20%20105217.png" alt="Response 2"></td>
+      <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/Screenshot%202024-03-20%20105203.png" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/Screenshot%202024-03-20%20105225.png" alt="Response 2"></td>
   </tr>
 </table>
-<h3>Educator Feedback</h3>
 <table>
-  <tr>
-    <td><img src="https://imgur.com/LLmrtvM.png" alt="Response 1"></td>
-    <td><img src="https://imgur.com/UdOjzO3.png" alt="Response 1"></td>
-  </tr>
-  <tr>
-    <td><img src="https://imgur.com/57u1ihp.png" alt="Response 1"></td>
-    <td><img src="https://imgur.com/Lj4zYst.png" alt="Response 2"></td>
-  </tr>
-  <tr>
-    <td><img src="https://imgur.com/luSCvuK.png" alt="Response 1"></td>
-    <td><img src="https://imgur.com/4MjBf9h.png" alt="Response 3"></td>
-  </tr>
+    <tr>
+ <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/Screenshot%202024-03-20%20105144.png" alt="Response 1"></td>
+    </tr>
 </table>
--->
 <h2>🎓 Features for Students</h2>
 
 - **Personalized Learning Paths**: Tailored curriculum based on individual learning styles and progress.
@@ -77,12 +59,6 @@ Through extensive user feedback sessions involving students and educators, we've
     <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/answering%20and%20score.gif" alt="Response 1"></td>
   </tr>
 </table>
-<h2>📚 Features for Educators</h2>
-
-- **Analytics Dashboard**: Insights into student performance and engagement metrics for targeted interventions.
-- **Lesson Planning Tools**: Curriculum customization and scheduling functionalities.
-- **Communication Platform**: Seamless communication with students and parents for progress updates and feedback.
-- **Professional Development Resources**: Access to training modules and best practices for continuous improvement.
 
 <table>
   <tr>
@@ -92,11 +68,19 @@ Through extensive user feedback sessions involving students and educators, we've
     <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/Smart_prep_gifs/chatbot.gif" alt="Response 1"></td>
   </tr>
 </table>
+<h2>📚 Features for Educators</h2>
+
+- **Analytics Dashboard**: Insights into student performance and engagement metrics for targeted interventions.
+- **Lesson Planning Tools**: Curriculum customization and scheduling functionalities.
+- **Communication Platform**: Seamless communication with students and parents for progress updates and feedback.
+- **Professional Development Resources**: Access to training modules and best practices for continuous improvement.
+
+
 
 <table>
   <tr>
-    <td><img src="https://imgur.com/1e9FBLc" alt="Response 1"></td>
-    <td><img src="https://imgur.com/o4dyqfh" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/web_dashboard.jpg" alt="Response 1"></td>
+    <td><img src="https://github.com/brogrammers4life/smart-prep-ai/blob/main/smartprep_images/user_analytics.jpg" alt="Response 1"></td>
   </tr>
 </table>
 
