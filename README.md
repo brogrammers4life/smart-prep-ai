@@ -139,3 +139,127 @@ Now, your Flutter project should be set up with Firebase and Dialogflow.
 4. Install the dependencies: `pip install -r requirements.txt`
 
 5. Start the backend server: `python app.py`
+
+
+
+
+
+# SmartPrep.ai API Documentation
+
+Welcome to the SmartPrep.ai API documentation. This API provides functionalities for generating questions from various sources such as text, PDFs, handwritten notes, and more.
+
+## Base URL
+
+The base URL for all API endpoints is `{{base_url}}`.
+
+## Routes
+
+### 1. generate_questions_from_text
+
+#### Description
+
+This route generates questions from textual content.
+
+#### Payload
+
+```json
+{
+  "text": "Text content goes here"
+}
+```
+
+### 2. generate_questions_using_regex
+
+#### Description
+
+This route generates questions from a PDF using regular expressions.
+
+#### Payload
+
+```json
+{
+  "pdf_url": "URL to the PDF file",
+  "start": "Start page number",
+  "end": "End page number"
+}
+```
+
+### 3. generate_questions_from_pdf
+
+#### Description
+
+This route generates questions from a PDF.
+
+#### Payload
+
+```json
+{
+  "pdf_url": "URL to the PDF file",
+  "start": "Start page number",
+  "end": "End page number"
+}
+```
+
+### 4. generate_questions_from_handwritten
+
+#### Description
+
+This route generates questions from handwritten notes.
+
+#### Payload
+
+```json
+{
+  "image_url": "URL to the image of handwritten notes"
+}
+```
+
+### 5. semantic_score
+
+#### Description
+
+This route calculates the semantic similarity score between two sentences.
+
+#### Payload
+
+```json
+{
+  "og_ans": "Original answer",
+  "user_ans": "User's answer"
+}
+```
+
+### 6. literal_score
+
+#### Description
+
+This route calculates the literal similarity score between two sentences.
+
+#### Payload
+
+```json
+{
+  "og_ans": "Original answer",
+  "user_ans": "User's answer"
+}
+```
+
+### 7. help_learn_answer
+
+#### Description
+
+This route provides assistance in understanding an answer.
+
+#### Payload
+
+```json
+{
+  "answer": "Answer text"
+}
+```
+
+## Note
+
+Ensure to replace `{{base_url}}` with the actual base URL of the API.
+
+
