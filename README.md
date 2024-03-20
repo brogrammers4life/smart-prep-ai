@@ -17,12 +17,13 @@ SmartPrep.ai is an innovative education platform aimed at democratizing learning
 <hr>
 <h2>📆 Project Timeline</h2>
 
-- **June 1, 2023**: Project Inception
-  - Recipient of UNICEF Innovation Fund Grant for Education Technology Solutions
-- **August 15, 2023**: Platform Development Commences
-- **November 10, 2023**: Integration of AI Algorithms for Personalization
-- **March 25, 2024**: Submitted for UNESCO Tech for Education Challenge 2024
-- **End of April 2024**: Finalize Integration of Multi-language Support and Accessibility Features
+- **January, 2023**: Project Inception
+  - Started Research and development on this topic 
+- **August-December  , 2023**: Won multiple hackathon
+  - Hackmania, organised by Athrava college of Engineering
+  - Datathon, organised by KJ Somaiya college of Engineering
+- **March 17, 2024**: Raised INR 80k from Shark Tank Trinity Event.
+- **april 2024 so on**: Wokring to bring the product to production.
   
 <h2>🌍 Education Equity Challenges</h2>
 
