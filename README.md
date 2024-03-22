@@ -171,6 +171,7 @@ The server is hosted and ready to use at https://smart-prep-ai.onrender.com/
 
 
 
+
 # SmartPrep.ai API Documentation
 
 Welcome to the SmartPrep.ai API documentation. This API provides functionalities for generating questions from various sources such as text, PDFs, handwritten notes, and more.
@@ -195,6 +196,8 @@ This route generates questions from textual content.
 }
 ```
 
+**URL:** `{{base_url}}/model/api/generate_questions_from_text`
+
 ### 2. generate_questions_using_regex
 
 #### Description
@@ -210,6 +213,8 @@ This route generates questions from a PDF using regular expressions.
   "end": "End page number"
 }
 ```
+
+**URL:** `{{base_url}}/model/api/generate_questions_using_regex`
 
 ### 3. generate_questions_from_pdf
 
@@ -227,6 +232,8 @@ This route generates questions from a PDF.
 }
 ```
 
+**URL:** `{{base_url}}/model/api/generate_questions_from_pdf`
+
 ### 4. generate_questions_from_handwritten
 
 #### Description
@@ -240,6 +247,8 @@ This route generates questions from handwritten notes.
   "image_url": "URL to the image of handwritten notes"
 }
 ```
+
+**URL:** `{{base_url}}/model/api/generate_questions_from_handwritten`
 
 ### 5. semantic_score
 
@@ -256,6 +265,8 @@ This route calculates the semantic similarity score between two sentences.
 }
 ```
 
+**URL:** `{{base_url}}/model/api/semantic_score`
+
 ### 6. literal_score
 
 #### Description
@@ -271,6 +282,8 @@ This route calculates the literal similarity score between two sentences.
 }
 ```
 
+**URL:** `{{base_url}}/model/api/literal_score`
+
 ### 7. help_learn_answer
 
 #### Description
@@ -285,8 +298,8 @@ This route provides assistance in understanding an answer.
 }
 ```
 
-## Note
+**URL:** `{{base_url}}/model/api/help_learn_answer`
 
-Ensure to replace `{{base_url}}` with the actual base URL of the API.
+Make sure to replace `{{base_url}}` with the actual base URL of your API.
 
 
